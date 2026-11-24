@@ -1,0 +1,260 @@
+
+/* webbpage css */
+
+body {
+  background-color: #e9edf2;
+  color: #252525;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #172b4d;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #65c6ff;
+  text-decoration: underline;
+}
+
+/* Style 1 - page width and background */
+.home-page {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2em auto;
+  padding: 2%;
+  background-color: white;
+}
+
+/* Style 2 - Main heading */
+.home-page h1 {
+  color: #172b4d;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Style 3 - Paragraphs */
+.home-page p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Style 4 - Section headings */
+.home-page h2 {
+  color: #245b8f;
+  background-color: #e9f1f8;
+  padding: 10px;
+}
+
+/* Style 5 - Chicago image */
+.home-page .chicago-image {
+  width: 70%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style 6 - Video */
+.home-page video {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style 1 - page width */
+.resume-page {okay
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* Style 2 - Resume heading */
+.resume-page h1 {
+  color: #172b4d;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Style 3 - Profile picture */
+.resume-page .profile-photo {
+  width: 180px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style 4 - Section headings */
+.resume-page h2 {
+  color: #245b8f;
+  background-color: #e9f1f8;
+  padding: 10px;
+}
+
+/* Style 5 - Paragraphs */
+.resume-page p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Style 6 - Lists */
+.resume-page ul {
+  line-height: 1.8;
+}
+
+/* Style 1 - page width and background */
+.music-page {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 2%;
+  background-color: white;
+}
+
+/* Style 2 - Main heading */
+.music-page h1 {
+  color: #172b4d;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Style 3 - Instrument image */
+.music-page .instrument-image {
+  width: 65%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style 4 - Paragraphs */
+.music-page p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Style 5 - Section headings */
+.music-page h2 {
+  color: #245b8f;
+  background-color: #e9f1f8;
+  padding: 10px;
+}
+
+/* Style 6 - Validation screenshot */
+.music-page .validation-image {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+.home-page {
+  box-sizing: border-box;
+  width: 94%;
+  padding: 4%;
+}
+
+.home-page img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query 1 */
+@media screen and (min-width: 600px) {
+
+  .home-page {
+    width: 90%;
+    padding: 3%;
+  }
+
+  .home-page h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-page p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .home-page video {
+    width: 80%;
+  }
+
+}
+
+/* Media Query 2 */
+@media screen and (min-width: 900px) {
+
+  .home-page {
+    width: 90%;
+    padding: 2%;
+  }
+
+  .home-page h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-page p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .home-page h2 {
+    padding: 12px;
+  }
+
+}
+
+.map-page {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2em auto;
+  padding: 2%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.map-page h1 {
+  color: #172b4d;
+  text-align: center;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
+  margin: 20px auto;
+}
+
+#questions-button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background-color: #172b4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#questions-button:hover {
+  background-color: #245b8f;
+}
